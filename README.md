@@ -1,3 +1,3 @@
 # Fractional Input Scaler ZMK module
 
-This is a module that provides an input scaler that allows for fractional distances, to circumvent pixel minimums of 0/1.
+This is a module that provides an input scaler that statelessly allows fractional inputs, at the cost of determinacy. That is, it does not track remainders but rather probabilistically adds.
